@@ -5,14 +5,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 
-ReactDOM.render( <
-    React.StrictMode >
-    <
-    App / >
-    <
-    /React.StrictMode>,
-    document.getElementById('root')
-);
+/*ReactDOM.render(
+ <React.StrictMode>
+    <App />
+ </React.StrictMode>,
+  document.getElementById('root')
+);*/
 /* function formatName(user){
  return user.fName + '' + user.lName;
 }
