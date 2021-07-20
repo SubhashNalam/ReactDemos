@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        Learning React.....
-       <Counter />
+       <Counter counter={0}/>
       </header>
     </div>
   );
