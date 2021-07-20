@@ -1,12 +1,10 @@
-function Temp(props) {
-    return ( <
-        div >
+function Temp(props){
+    return(
+        <div>
 
-        <
-        h2 > The Temperature is 34 < /h2>
-
-        <
-        /div>
+        <h2>The Temperature is {degrees}</h2>
+        
+        </div>
     )
 }
 export default Temp;
