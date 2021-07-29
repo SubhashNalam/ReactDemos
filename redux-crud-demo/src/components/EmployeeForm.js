@@ -56,12 +56,12 @@ export default class EmployeeForm extends React.Component {
         return (
             <div> 
                 <form onSubmit={this.onSubmit} className="form-group m-4">           
-                    <input className="form-control m-1 w-50" required type="text" placeholder="Enter firstName here..." value={this.state.firstName} onChange={this.onFirstNameChange}/>
-                    <input className="form-control m-1 w-25" required type="text" placeholder="Enter last name here..."  value={this.state.lastName} onChange={this.onLastNameChange}/>
+                    <input className="form-control m-1 w-50" required type="date" placeholder="Enter firstName here..." value={this.state.firstName} onChange={this.onFirstNameChange}/>
+                    <input className="form-control m-1 w-25" required type="time" placeholder="Enter last name here..."  value={this.state.lastName} onChange={this.onLastNameChange}/>
                     <input className="form-control m-1 w-50"  required type="text"  placeholder="Enter Email-Id here..." value={this.state.emailId} onChange={this.onEmailIdChange}/>
                     
                     {this.state.error && <b className="m-1 text-danger">{this.state.error}</b>}
-                    <button className="btn btn-primary m-1 w-25">Edit Employee</button>
+                    <button className="btn btn-primary m-1 w-25">Edit Booking</button>
                 </form>
             </div>
         );
